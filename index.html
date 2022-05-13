@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Viviane Coêlho</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header id="cabecalho">
+         <img src="https://cdn-icons-png.flaticon.com/512/1157/1157109.png" alt="logo code" class="logo">
+        <nav>
+            <li id="email"><a href="mailto:vivicoelho.tech@gmail.com" target="_blank">E-mail</a></li>
+            <li id="linkedin"><a href="https://www.linkedin.com/in/viviane-coelho9/" target="_blank">LinkedIn</a></li>
+            <li id="github"><a href="https://github.com/ViviCoelho" target="_blank">GitHub</a></li>
+        </nav>
+    </header>
+    <section>
+        <header class="container">
+            <h1 id="title">Viviane Coêlho</h1>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-circle-arrow-down"></i>
+            </div>
+            <div style="display:none" id="about">
+            <p class="post_content">
+                Formada em Educação Física, mas amante da tecnologia. Com a pandemia veio o desejo de entrar na área de TI.
+                Sou estudante de Análise e Desenvolvimento de Sistemas (2º período). Portanto, estou em transição de carreia, entrando de 
+                cabeça no mundo da programação. Na área esportiva, aprendir a ter disciplina, compreensão, respeito e tomadas rápidas de decisão. 
+                Atualmente, estou participando do Hiring Coders#3 e do Bootcamp DESAFIO TECH AVANADE (DIO).
+            </p>
+        </header>
+        <article class="post_img">
+            
+            <img src="./Humaaans - 2 Characters.png" alt="Duas pessoas em pés com várias telas de fundo" id="human">
+            <p class="post_content1">
+               Onde quero chegar  
+            </p>
+            <img src="./Humaaans - Wireframe.png" alt="humano em pé com uma tela" id="human1">
+            <p class="post_content2">
+               Buscando conhecimentos  
+            </p>
+            <img src="./Humaaans - Sitting.png" alt="humano sentado" id="human2">
+            <p class="post_content3">
+                Onde estava       
+            </p>
+            
+        </article>
+    </section>
+    <footer>
+        <a> ©2022 por Viviane Coelho | Todos os direitos reservados</a>        
+    </footer>
+
+    <script>
+    
+            function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>

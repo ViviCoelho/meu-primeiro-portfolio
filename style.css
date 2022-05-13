@@ -1,0 +1,189 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+#cabecalho {  
+    border-bottom: 5px ridge white;
+    margin:0;
+    padding: 5px;
+    
+}
+
+#cabecalho nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+#cabecalho nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#cabecalho nav li a:hover{
+    background-color: aqua;
+    text-decoration: none;
+}
+
+
+.logo {
+    width:10%;
+}
+    
+.container {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#title {
+    color: black;
+}
+
+.subtitle, .post_title {
+    color: black;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a {
+    color: #505050;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#arrow {
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+    padding: 10px 0px;
+
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#animation {
+    transition: 300ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active {
+    display: block !important;
+}
+
+#about p {
+    max-width: 300px;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+#about p {
+    max-width: 80%;
+    text-align: center;
+}
+
+.post_img{
+    margin-bottom: 15px;
+    width: 100%;
+    border: 3px solid black;
+   
+}
+
+.post_img #human1, .post_img #human2{
+    width:20%;
+
+}
+
+.post_img #human{
+   
+    padding-left: 500px ;
+
+}
+
+.post_img #human1{
+   
+    padding-left: 350px ;
+
+}
+
+.post_content1 {
+    padding-left: 620px ;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.post_content2 {
+    padding-left: 350px ;
+    font-style: italic;
+     font-style: italic;
+     font-size: 15px;
+}
+
+.post_content3 {
+    padding-left: 30px ;
+    font-style: italic;
+    font-size: 15px;
+}
+
+footer{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 5px;
+
+}
+/*
+#email{
+    list-style-image: url(./email.png);
+}
+    
+#linkedin{
+    list-style-image: url(./linkedin.jpg);
+}
+
+#github{
+    list-style-image: url(./github.jpg);
+}
+    
+  */  
